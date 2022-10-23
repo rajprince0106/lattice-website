@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .navbar {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .signin {
+      margin-right: 10px;
+      border-color: white;
+      background-color: #fff;
+    }
+
+    .request {
+      background-color: white;
+      border-color: white;
+    }
+
+    .button5 {
+      border-radius: 20%;
+      margin-left: 40px;
+      margin-top: 100px;
+    }
+
+    .people {
+      margin-left: 40px;
+    }
+
+    .business {
+      margin-left: 40px;
+    }
+
+    .description {
+      margin-left: 40px;
+    }
+
+    .container {
+      margin: 0;
+      padding: 0;
+      width: 100px;
+      background-color: grey;
+      height: 250px;
+      display: flex;
+    }
+
+    .left {
+      background-color: white;
+      margin-left: 0px;
+
+    }
+
+    .right {
+      background-color: white;
+      margin-right: 0px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .topnav-right {
+      float: right;
+    }
+
+    /* .right1{
+   width: 50%;
+   margin-right: 0px;
+}
+
+.left1{
+    width: 50%;
+    margin-left: 0px;
+    
+} */
+
+    .image1 {
+      margin-top: 160px;
+    }
+
+    /* .maintxt { */
+      /* position: relative;
+      margin-top: 150px;
+    } */
+
+    /* .maintxt>img, */
+     .overlay-text {
+      position: absolute;
+     }
+
+    .overlay-text {
+      font-size: larger;
+      font-weight: 200;
+      color: white;
+      padding: 190px 10px;
+    }
+    .card{
+      margin-top: 90px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="img/latticelogo.png" width="70px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="signin btn-light">Signin</button>
+      <button type="button" class="request btn-success">Request and Demo</button>
+  </nav>
+  <div class="info-box-content row">
+    <div class="col-md-6">
+      <button class="button button5">RATED #1 ON G2</button>
+
+      <h1 class="people">People first</h1>
+      <h1 class="business">Business Last.</h1>
+      <h3 class="description">Lattice is the complete people success platform that helps<br> you put people first. When
+        people succeed, your business<br> succeeds.</h3>
+    </div>
+    <div class="col-md-6">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/landon-pearson.jpg" alt="Card image cap">
+        <span class="overlay-text"> Landan Pearson</span>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    </div> --> -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+  <!-- <div class="container">
+      <div class="left width=50%">
+          <h1>Enter site Title</h1>
+          <h3> Enter site Slogan</h3>
+  
+          
+      </div>
+       <div class="right">
+          <div class="images width=50%">
+             <img src="Capture.JPG" style="width:300px; margin-left: 350px; ">
+          </div>
+      </div>
+  </div> -->
+
+
+  <!-- <div class="topnav">
+    <div><h1 class="people">People first</h1>
+      <h1 class="business">Business Last.</h1>
+      <h3 class="description">Lattice is the complete people success platform that helps<br> you put people first. When people succeed, your business<br> succeeds.</h3>
+   </div>
+    <a href="#news"></a>
+    <a href="#contact"></a>
+    <div class="topnav-right">
+      <a href="#search"></a>
+      <a href="#about"></a>
+    </div>
+  </div> -->
+
+</body>
+
+</html>
